@@ -39,7 +39,7 @@ export default defineConfig(({ mode }) => {
                 `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key=${apiKey}`,
                 { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ system_instruction: { parts: [{ text: SYSTEM_PROMPT }] }, contents, generationConfig: { maxOutputTokens: 512, temperature: 0.7 } }) }
               )
-              const data = await geminiRes.json()
+              const data = await geminiRes.json() as any
               const text = data.candidates?.[0]?.content?.parts?.[0]?.text ?? 'No response'
               res.setHeader('Content-Type', 'application/json')
               res.end(JSON.stringify({ text }))
