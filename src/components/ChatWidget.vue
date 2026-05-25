@@ -23,7 +23,7 @@ function renderMd(text: string) {
     .split('\n')
     .map((line) => {
       const bullet = line.match(/^[\*\-]\s+(.*)/)
-      if (bullet) return `<li>${inlineMd(bullet[1])}</li>`
+      if (bullet) return `<li>${inlineMd(bullet[1] ?? '')}</li>`
       if (line.trim() === '') return '<br>'
       return `<p>${inlineMd(line)}</p>`
     })
