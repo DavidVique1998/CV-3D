@@ -1,47 +1,40 @@
-import thumbnailCubeWar from "../../../assets/thumbnails/cubewar.webp";
-import thumbnailQuibbo from "../../../assets/thumbnails/quibbo.webp";
-//import thumbnailParticles from "../../../assets/thumbnails/particles.webp";
-import thumbnailPokedex from "../../../assets/thumbnails/pokedex.webp";
-import thumbnailSharkie from "../../../assets/thumbnails/sharkie.webp";
-import thumbnailStreakon from "../../../assets/thumbnails/streakon.webp";
+import thumbnailBmc from "../../../assets/thumbnails/bmc.jpg";
+import thumbnailUmi from "../../../assets/thumbnails/umi.jpg";
+import thumbnailCt from "../../../assets/thumbnails/ct.jpg";
+import thumbnailQubex from "../../../assets/thumbnails/qubex.jpg";
+import thumbnailEntropia from "../../../assets/thumbnails/entropia.jpg";
 
 import type { ProjectPreview } from "../../types";
 
 export default [
   {
-    title: "StreakOn",
-    slug: "streakon",
-    thumbnail: thumbnailStreakon,
-    description: "App für tägliche Gewohnheiten",
+    title: "Benefit Match Center",
+    slug: "bmc",
+    thumbnail: thumbnailBmc,
+    description: "Section-125-Benefits-Plattform",
   },
   {
-    title: "CubeWar",
-    slug: "cubewar",
-    thumbnail: thumbnailCubeWar,
-    description: "Multiplayer-Strategiespiel",
+    title: "UMI — Meeting Intel",
+    slug: "umi",
+    thumbnail: thumbnailUmi,
+    description: "KI-Meeting-Intelligence",
   },
   {
-    title: "Quibbo",
-    slug: "quibbo",
-    thumbnail: thumbnailQuibbo,
-    description: "Multiplayer-Gaming-Plattform",
+    title: "Commission Tracker",
+    slug: "ct",
+    thumbnail: thumbnailCt,
+    description: "Serverloser PDF-Analyzer",
   },
   {
-    title: "Sharkie",
-    slug: "sharkie",
-    thumbnail: thumbnailSharkie,
-    description: "2D-Abenteuerspiel",
+    title: "Qubex LLM",
+    slug: "qubex",
+    thumbnail: thumbnailQubex,
+    description: "KI-Chat-Interface",
   },
-  /**  {
-    title: "WebGL Partikel",
-    slug: "particles",
-    thumbnail: thumbnailParticles,
-    description: "Dynamische 3D Partikel",
-  }, */
   {
-    title: "Pokédex",
-    slug: "pokedex",
-    thumbnail: thumbnailPokedex,
-    description: "Open-Source Lernprojekt",
+    title: "Entropía N8N Studio",
+    slug: "entropia",
+    thumbnail: thumbnailEntropia,
+    description: "KI-Automatisierungsagentur",
   },
 ] as const satisfies ProjectPreview[];

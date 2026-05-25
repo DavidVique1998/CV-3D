@@ -1,47 +1,40 @@
-import thumbnailCubeWar from "../../../assets/thumbnails/cubewar.webp";
-import thumbnailQuibbo from "../../../assets/thumbnails/quibbo.webp";
-//import thumbnailParticles from "../../../assets/thumbnails/particles.webp";
-import thumbnailPokedex from "../../../assets/thumbnails/pokedex.webp";
-import thumbnailSharkie from "../../../assets/thumbnails/sharkie.webp";
-import thumbnailStreakon from "../../../assets/thumbnails/streakon.webp";
+import thumbnailBmc from "../../../assets/thumbnails/bmc.jpg";
+import thumbnailUmi from "../../../assets/thumbnails/umi.jpg";
+import thumbnailCt from "../../../assets/thumbnails/ct.jpg";
+import thumbnailQubex from "../../../assets/thumbnails/qubex.jpg";
+import thumbnailEntropia from "../../../assets/thumbnails/entropia.jpg";
 
 import type { ProjectPreview } from "../../types";
 
 export default [
   {
-    title: "StreakOn",
-    slug: "streakon",
-    thumbnail: thumbnailStreakon,
-    description: "Social habit tracking app",
+    title: "Benefit Match Center",
+    slug: "bmc",
+    thumbnail: thumbnailBmc,
+    description: "Section 125 benefits platform",
   },
   {
-    title: "CubeWar",
-    slug: "cubewar",
-    thumbnail: thumbnailCubeWar,
-    description: "Multiplayer strategy game",
+    title: "UMI — Meeting Intel",
+    slug: "umi",
+    thumbnail: thumbnailUmi,
+    description: "AI meeting intelligence",
   },
   {
-    title: "Quibbo",
-    slug: "quibbo",
-    thumbnail: thumbnailQuibbo,
-    description: "Multiplayer gaming platform",
+    title: "Commission Tracker",
+    slug: "ct",
+    thumbnail: thumbnailCt,
+    description: "Serverless PDF analyzer",
   },
   {
-    title: "Sharkie",
-    slug: "sharkie",
-    thumbnail: thumbnailSharkie,
-    description: "2D adventure game",
+    title: "Qubex LLM",
+    slug: "qubex",
+    thumbnail: thumbnailQubex,
+    description: "AI chat interface",
   },
-  /**  {
-    title: "WebGL Particles",
-    slug: "particles",
-    thumbnail: thumbnailParticles,
-    description: "Dynamic 3D particles",
-  }, */
   {
-    title: "Pokédex",
-    slug: "pokedex",
-    thumbnail: thumbnailPokedex,
-    description: "Open-source learning project",
+    title: "Entropía N8N Studio",
+    slug: "entropia",
+    thumbnail: thumbnailEntropia,
+    description: "AI automation agency",
   },
 ] as const satisfies ProjectPreview[];

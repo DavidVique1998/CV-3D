@@ -10,7 +10,7 @@ import diffuseMap from "./assets/textures/diffuse-map.png";
 import faceTexture from "./assets/textures/face-spritesheet.png";
 import headTexture from "./assets/textures/head.webp";
 import iconSpritesheet from "./assets/textures/icon-spritesheet.webp";
-import matcapBlack from "./assets/textures/matcap-black.webp";
+import matcapBlack from "./assets/textures/matcap-black.png";
 import matcapGray from "./assets/textures/matcap-gray.webp";
 import matcapSkin from "./assets/textures/matcap-skin.webp";
 import matcapWhite from "./assets/textures/matcap-white.webp";
