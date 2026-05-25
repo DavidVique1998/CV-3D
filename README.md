@@ -36,8 +36,3 @@ Please keep:
 - existing credit comments in the source code
 - this attribution section in the README
 - a visible reference to the original project/repository in derivative works
-
-Original portfolio:
--> https://david-hckh.com
-
-Commercial reuse or redistribution of substantial portions of this project without permission is prohibited.
