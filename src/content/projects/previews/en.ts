@@ -3,6 +3,7 @@ import thumbnailUmi from "../../../assets/thumbnails/umi.jpg";
 import thumbnailCt from "../../../assets/thumbnails/ct.jpg";
 import thumbnailQubex from "../../../assets/thumbnails/qubex.jpg";
 import thumbnailEntropia from "../../../assets/thumbnails/entropia.jpg";
+import thumbnailOnmidental from "../../../assets/thumbnails/onmidental.jpg";
 
 import type { ProjectPreview } from "../../types";
 
@@ -36,5 +37,11 @@ export default [
     slug: "entropia",
     thumbnail: thumbnailEntropia,
     description: "AI automation agency",
+  },
+  {
+    title: "Dental Estudio Tenerife",
+    slug: "onmidental",
+    thumbnail: thumbnailOnmidental,
+    description: "Dental clinic redesign",
   },
 ] as const satisfies ProjectPreview[];
