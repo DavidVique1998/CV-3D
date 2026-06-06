@@ -41,10 +41,10 @@ export default [
     description: "Agencia de automatización con IA",
   },
   {
-    title: "Dental Estudio Tenerife",
-    slug: "onmidental",
-    thumbnail: thumbnailOnmidental,
-    description: "Rediseño de clínica dental",
+    title: "Disfrazarte",
+    slug: "disfrazarte",
+    thumbnail: thumbnailDisfrazarte,
+    description: "Landing tienda de disfraces",
   },
   {
     title: "Clínica Dental Goyanc",
@@ -53,9 +53,9 @@ export default [
     description: "Sitio web clínica dental de lujo",
   },
   {
-    title: "Disfrazarte",
-    slug: "disfrazarte",
-    thumbnail: thumbnailDisfrazarte,
-    description: "Landing tienda de disfraces",
+    title: "Dental Estudio Tenerife",
+    slug: "onmidental",
+    thumbnail: thumbnailOnmidental,
+    description: "Rediseño de clínica dental",
   },
 ] as const satisfies ProjectPreview[];
