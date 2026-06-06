@@ -111,6 +111,7 @@ const SERVICES_EN = [
   { name: "Automation (N8N, Voice)" },
   { name: "Next.js & React" },
   { name: "NestJS & Node.js" },
+  { name: "Python & TypeScript" },
   { name: "AWS & DevOps" },
 ] as const satisfies { name: string }[];
 
@@ -119,6 +120,7 @@ const SERVICES_DE = [
   { name: "Automatisierung (N8N, Voice)" },
   { name: "Next.js & React" },
   { name: "NestJS & Node.js" },
+  { name: "Python & TypeScript" },
   { name: "AWS & DevOps" },
 ] as const satisfies { name: string }[];
 

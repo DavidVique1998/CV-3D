@@ -11,6 +11,24 @@ import type { ProjectPreview } from "../../types";
 
 export default [
   {
+    title: "Disfrazarte",
+    slug: "disfrazarte",
+    thumbnail: thumbnailDisfrazarte,
+    description: "Costume shop landing page",
+  },
+  {
+    title: "Clínica Dental Goyanc",
+    slug: "onmidental2",
+    thumbnail: thumbnailOnmidental2,
+    description: "Luxury dental clinic website",
+  },
+  {
+    title: "Dental Estudio Tenerife",
+    slug: "onmidental",
+    thumbnail: thumbnailOnmidental,
+    description: "Dental clinic redesign",
+  },
+  {
     title: "Benefit Match Center",
     slug: "bmc",
     thumbnail: thumbnailBmc,
@@ -39,23 +57,5 @@ export default [
     slug: "entropia",
     thumbnail: thumbnailEntropia,
     description: "AI automation agency",
-  },
-  {
-    title: "Disfrazarte",
-    slug: "disfrazarte",
-    thumbnail: thumbnailDisfrazarte,
-    description: "Costume shop landing page",
-  },
-  {
-    title: "Clínica Dental Goyanc",
-    slug: "onmidental2",
-    thumbnail: thumbnailOnmidental2,
-    description: "Luxury dental clinic website",
-  },
-  {
-    title: "Dental Estudio Tenerife",
-    slug: "onmidental",
-    thumbnail: thumbnailOnmidental,
-    description: "Dental clinic redesign",
   },
 ] as const satisfies ProjectPreview[];
