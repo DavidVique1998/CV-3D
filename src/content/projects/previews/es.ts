@@ -4,6 +4,7 @@ import thumbnailCt from "../../../assets/thumbnails/ct.jpg";
 import thumbnailQubex from "../../../assets/thumbnails/qubex.jpg";
 import thumbnailEntropia from "../../../assets/thumbnails/entropia.jpg";
 import thumbnailOnmidental from "../../../assets/thumbnails/onmidental.jpg";
+import thumbnailDisfrazarte from "../../../assets/thumbnails/disfrazarte.jpg";
 
 import type { ProjectPreview } from "../../types";
 
@@ -43,5 +44,11 @@ export default [
     slug: "onmidental",
     thumbnail: thumbnailOnmidental,
     description: "Rediseño de clínica dental",
+  },
+  {
+    title: "Disfrazarte",
+    slug: "disfrazarte",
+    thumbnail: thumbnailDisfrazarte,
+    description: "Landing tienda de disfraces",
   },
 ] as const satisfies ProjectPreview[];
