@@ -9,9 +9,10 @@ import { useHowler } from "./features/sounds/composables/useHowler";
 import { useRouteObserver } from "./composables/useRouteObserver";
 import Home from "./features/home/components/Home.vue";
 import Project from "./features/projects/components/Project.vue";
+import { watchEffect } from "vue";
 import { useProjectTransition } from "./composables/useProjectTransition";
 import { useScroll } from "./composables/useScroll";
-import { projectVisible } from "./composables/useRouteObserver";
+import { projectVisible, projectId } from "./composables/useRouteObserver";
 import ProjectBackground from "./features/projects/components/ProjectBackground.vue";
 import { useClickSound } from "./features/sounds/composables/useClickSounds";
 //import { useHoverSound } from "./features/sounds/composables/useHoverSounds";
@@ -28,6 +29,12 @@ useRouteObserver();
 useClickSound();
 //useHoverSound();
 const { isTouch } = useAgent();
+
+watchEffect(() => {
+  const body = document.body;
+  [...body.classList].filter(c => c.startsWith('project-')).forEach(c => body.classList.remove(c));
+  if (projectId.value) body.classList.add(`project-${projectId.value}`);
+});
 </script>
 
 <template>

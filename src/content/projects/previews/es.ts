@@ -4,6 +4,7 @@ import thumbnailCt from "../../../assets/thumbnails/ct.jpg";
 import thumbnailQubex from "../../../assets/thumbnails/qubex.jpg";
 import thumbnailEntropia from "../../../assets/thumbnails/entropia.jpg";
 import thumbnailOnmidental from "../../../assets/thumbnails/onmidental.jpg";
+import thumbnailOnmidental2 from "../../../assets/thumbnails/onmidental2.jpg";
 import thumbnailDisfrazarte from "../../../assets/thumbnails/disfrazarte.jpg";
 
 import type { ProjectPreview } from "../../types";
@@ -44,6 +45,12 @@ export default [
     slug: "onmidental",
     thumbnail: thumbnailOnmidental,
     description: "Rediseño de clínica dental",
+  },
+  {
+    title: "Clínica Dental Goyanc",
+    slug: "onmidental2",
+    thumbnail: thumbnailOnmidental2,
+    description: "Sitio web clínica dental de lujo",
   },
   {
     title: "Disfrazarte",
