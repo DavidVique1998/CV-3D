@@ -107,25 +107,25 @@ const handleTimelineCreated = (timeline: gsap.core.Timeline, delay: number) => {
 };
 
 const SERVICES_EN = [
-  { name: "AI / LLM (OpenAI, LangChain)" },
-  { name: "Automation (N8N, Voice)" },
-  { name: "Next.js & React" },
-  { name: "NestJS & Node.js" },
-  { name: "Python & TypeScript" },
-  { name: "AWS & DevOps" },
+  { name: "AI / LLM (OpenAI, Claude, LangChain)" },
+  { name: "Next.js, React & React Native" },
+  { name: "NestJS, Node.js & PostgreSQL" },
+  { name: "TypeScript & Python" },
+  { name: "AWS, Azure & CI/CD" },
+  { name: "Salesforce, N8N & Automation" },
 ] as const satisfies { name: string }[];
 
-const SERVICES_DE = [
-  { name: "AI / LLM (OpenAI, LangChain)" },
-  { name: "Automatisierung (N8N, Voice)" },
-  { name: "Next.js & React" },
-  { name: "NestJS & Node.js" },
-  { name: "Python & TypeScript" },
-  { name: "AWS & DevOps" },
+const SERVICES_ES = [
+  { name: "IA / LLM (OpenAI, Claude, LangChain)" },
+  { name: "Next.js, React y React Native" },
+  { name: "NestJS, Node.js y PostgreSQL" },
+  { name: "TypeScript y Python" },
+  { name: "AWS, Azure y CI/CD" },
+  { name: "Salesforce, N8N y Automatización" },
 ] as const satisfies { name: string }[];
 
 const services = computed(() => {
-  return locale.value === "en" ? SERVICES_EN : SERVICES_DE;
+  return locale.value === "en" ? SERVICES_EN : SERVICES_ES;
 });
 </script>
 
