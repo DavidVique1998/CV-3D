@@ -6,10 +6,17 @@ import thumbnailEntropia from "../../../assets/thumbnails/entropia.jpg";
 import thumbnailOnmidental from "../../../assets/thumbnails/onmidental.jpg";
 import thumbnailOnmidental2 from "../../../assets/thumbnails/onmidental2.jpg";
 import thumbnailDisfrazarte from "../../../assets/thumbnails/disfrazarte.jpg";
+import thumbnailOpal from "../../../assets/thumbnails/opal.jpg";
 
 import type { ProjectPreview } from "../../types";
 
 export default [
+  {
+    title: "Opal Meetings",
+    slug: "opal",
+    thumbnail: thumbnailOpal,
+    description: "Plataforma de reuniones · web + iOS + Android",
+  },
   {
     title: "Disfrazarte",
     slug: "disfrazarte",

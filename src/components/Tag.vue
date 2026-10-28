@@ -101,6 +101,21 @@ const classes = computed(() => ["tag", `tag-variant-${props.variant}`]);
       background-color: #fff312;
       color: #1a1a00;
     }
+
+    &-react-native {
+      background-color: #20232a;
+      color: #61dafb;
+    }
+
+    &-azure {
+      background-color: #0078d4;
+      color: white;
+    }
+
+    &-salesforce {
+      background-color: #00a1e0;
+      color: white;
+    }
   }
 }
 </style>
