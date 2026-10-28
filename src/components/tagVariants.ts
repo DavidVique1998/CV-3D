@@ -20,6 +20,11 @@ export type TagVariant =
   | "langchain"
   | "docker"
   | "typescript"
+  | "tailwind"
+  | "framer-motion"
+  | "react-native"
+  | "azure"
+  | "salesforce"
   | "vercel";
 
 export const tagLabels = {
@@ -44,5 +49,10 @@ export const tagLabels = {
   langchain: "LangChain",
   docker: "Docker",
   typescript: "TypeScript",
+  tailwind: "Tailwind CSS",
+  "framer-motion": "Framer Motion",
+  "react-native": "React Native",
+  azure: "Azure",
+  salesforce: "Salesforce",
   vercel: "Vercel",
 } as const satisfies Record<TagVariant, string>;
