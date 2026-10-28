@@ -1,4 +1,5 @@
 import videoOpal from "../../../assets/videos/opal.mp4";
+import videoOpalNarrated from "../../../assets/videos/opal-narrated.mp4";
 
 import opal0 from "../../../assets/images/projects/opal/opal-0.jpg";
 import opal1 from "../../../assets/images/projects/opal/opal-1.jpg";
@@ -17,6 +18,16 @@ export default {
     {
       type: "media",
       props: { type: "video", src: videoOpal, caption: "Recorrido de la landing" },
+    },
+    {
+      type: "media",
+      props: {
+        type: "video",
+        src: videoOpalNarrated,
+        controls: true,
+        subtitles: "/subtitles/opal-narrated-en.vtt",
+        caption: "Recorrido narrado (en inglés)",
+      },
     },
     {
       type: "media",

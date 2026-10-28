@@ -13,6 +13,8 @@ export interface Props {
   src: string;
   alt?: string;
   caption?: string;
+  controls?: boolean;
+  subtitles?: string;
   index: number;
 }
 
@@ -64,6 +66,19 @@ onMounted(async () => {
         class="project-media-image"
         ref="mediaRef"
       />
+      <video
+        v-else-if="props.controls"
+        :src="props.src"
+        controls
+        playsinline
+        preload="metadata"
+        crossorigin="anonymous"
+        class="project-media-video"
+        ref="mediaRef"
+      >
+        <source :src="props.src" type="video/mp4" />
+        <track v-if="props.subtitles" :src="props.subtitles" kind="subtitles" srclang="en" label="English" />
+      </video>
       <video
         v-else
         :src="props.src"
