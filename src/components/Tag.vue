@@ -91,6 +91,16 @@ const classes = computed(() => ["tag", `tag-variant-${props.variant}`]);
       background-color: #95630e;
       color: white;
     }
+
+    &-tailwind {
+      background-color: #38bdf8;
+      color: #082f49;
+    }
+
+    &-framer-motion {
+      background-color: #fff312;
+      color: #1a1a00;
+    }
   }
 }
 </style>
